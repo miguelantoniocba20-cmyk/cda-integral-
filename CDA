@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa de Adolescentes - Brasília</title>
 
     <style>
@@ -70,7 +71,8 @@
 <body>
 
 <header>
-    <img src="logo.jpg" class="logo">
+    <!-- Se a imagem não existir, ela some automaticamente -->
+    <img src="logo.jpg" class="logo" onerror="this.style.display='none'">
     <h1>Casa de Adolescentes</h1>
     <p>Brasília</p>
 </header>
